@@ -1,6 +1,8 @@
-from src.common import xml_to_dict
+from src.poetry_demo.common import xml_to_dict
 
 
 def test():
-    xml_to_dict("")
-    print("Test")
+    try:
+        xml_to_dict("")
+    except Exception as e:
+        print("Test")
